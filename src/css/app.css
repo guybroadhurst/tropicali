@@ -105,6 +105,11 @@ section.centered {
     margin-right: auto;
 }
 
+footer {
+    margin: var(--main-spacing) auto;
+    text-align: center;
+}
+
 @media (--mq-small) {
     section.grid {
         grid-template-columns: 1fr;
